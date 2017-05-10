@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meta>
+  <info async="true"/>
+  <assembly ref="Newtonsoft.Json.dll"/>
+
+  <script src="Server/main.cs" type="server" lang="csharp"/>
+  <script src="Client/main.js" type="client" lang="javascript"/>
+
+  <export class="main" function="onCollisionEnter"/>
+  <export class="main" function="onCollisionExit"/>
+  
+</meta>
